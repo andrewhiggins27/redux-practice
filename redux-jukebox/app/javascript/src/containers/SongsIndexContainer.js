@@ -38,7 +38,7 @@ class SongsIndexContainer extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    artistSongs: state.playlists.artistSongs
+    artistSongs: state.songs.artistSongs
   }
 }
 
